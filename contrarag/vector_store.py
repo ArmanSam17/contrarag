@@ -17,7 +17,7 @@ class VectorStore:
         """
         Initialize an in-memory ChromaDB client.
         """
-        self.client = chromadb.Client()
+        self.client = chromadb.EphemeralClient()
         self.collections: dict = {}
 
     def _sanitize_name(self, source_id: str) -> str:
