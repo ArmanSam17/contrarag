@@ -1,11 +1,10 @@
 streamlit
 anthropic
-chromadb==0.5.23
+faiss-cpu
 sentence-transformers
 pymupdf
 beautifulsoup4
 requests
 langchain-text-splitters
 python-dotenv
-pydantic>=2.0.0
-onnxruntime
+numpy
