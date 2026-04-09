@@ -2,6 +2,11 @@
 
 > Feed it conflicting sources. Watch it find the fights.
 
+## 🚀 Live Demo
+[contrarag-jmylsno6gpl82dxdnkstuy.streamlit.app](https://contrarag-jmylsno6gpl82dxdnkstuy.streamlit.app)
+
+---
+
 Standard RAG pipelines retrieve relevant chunks and synthesize them into a single answer. That works well for lookup — but it quietly buries disagreement. When two sources contradict each other, most pipelines average them out or pick the dominant one. ContraRAG does the opposite: it keeps sources isolated through retrieval, then uses Claude to map exactly where they agree and where they conflict. Contradiction is the output, not a side effect to be smoothed over.
 
 ---
