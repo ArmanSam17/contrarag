@@ -1,0 +1,9 @@
+streamlit
+anthropic
+chromadb
+sentence-transformers
+pymupdf
+beautifulsoup4
+requests
+langchain-text-splitters
+python-dotenv
